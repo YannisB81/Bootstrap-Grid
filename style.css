@@ -1,0 +1,18 @@
+div {
+    height: 6vw;
+    width: auto;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+@media (max-width: 300px) {
+    div {
+        display: none;
+    }
+}
